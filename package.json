@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage": "https://github.com/deivikry/tuso-landing-silver.git",
+  "homepage": "https://deivikry.github.io/tuso-landing-silver/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
