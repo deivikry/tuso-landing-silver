@@ -228,7 +228,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border/20">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 TUSO — Turismo Inteligente en Ibagué
+            Turismo Inteligente en Ibagué
           </p>
         </div>
       </footer>
