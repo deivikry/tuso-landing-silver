@@ -9,7 +9,7 @@ interface QuizSectionProps {
 const QuizSection = ({ onOpenVideo }: QuizSectionProps) => {
   const handleOpenForm = () => {
     // Reemplaza esta URL con tu formulario de Google Forms, Typeform, etc.
-    window.open("https://forms.google.com", "_blank");
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdwedM5e-Tz1gwRqKfxUD6wxAxyxyC8PH5eg5Ghj-f2sRKmtw/viewform", "_blank");
   };
 
   return (
