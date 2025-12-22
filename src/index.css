@@ -6,22 +6,22 @@
 
 @layer base {
   :root {
-    --background: 0 0% 5%;
+    --background: 0 0% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 280 60% 8%;
+    --card: 280 45% 15%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 280 60% 8%;
+    --popover: 280 45% 15%;
     --popover-foreground: 0 0% 95%;
 
     --primary: 330 70% 48%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 80% 25%;
+    --secondary: 270 60% 35%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 270 30% 15%;
+    --muted: 270 25% 22%;
     --muted-foreground: 0 0% 65%;
 
     --accent: 42 90% 58%;
@@ -30,37 +30,37 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 270 30% 20%;
-    --input: 270 30% 20%;
+    --border: 270 25% 28%;
+    --input: 270 25% 28%;
     --ring: 330 70% 48%;
 
     --radius: 0.75rem;
 
     /* Custom TUSO colors */
     --magenta: 330 70% 48%;
-    --purple-deep: 270 80% 25%;
+    --purple-deep: 270 55% 40%;
     --gold: 42 90% 58%;
-    --dark: 0 0% 5%;
+    --dark: 0 0% 10%;
     --silver: 220 10% 72%;
   }
 
   .dark {
-    --background: 0 0% 5%;
+    --background: 0 0% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 280 60% 8%;
+    --card: 280 45% 15%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 280 60% 8%;
+    --popover: 280 45% 15%;
     --popover-foreground: 0 0% 95%;
 
     --primary: 330 70% 48%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 80% 25%;
+    --secondary: 270 60% 35%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 270 30% 15%;
+    --muted: 270 25% 22%;
     --muted-foreground: 0 0% 65%;
 
     --accent: 42 90% 58%;
@@ -69,8 +69,8 @@
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 270 30% 20%;
-    --input: 270 30% 20%;
+    --border: 270 25% 28%;
+    --input: 270 25% 28%;
     --ring: 330 70% 48%;
   }
 }
@@ -101,7 +101,7 @@
   }
 
   .glass-card {
-    background: hsl(var(--purple-deep) / 0.3);
+    background: hsl(var(--purple-deep) / 0.25);
     backdrop-filter: blur(12px);
     border: 1px solid hsl(var(--magenta) / 0.2);
   }
