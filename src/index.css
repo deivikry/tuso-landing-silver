@@ -102,10 +102,10 @@
   }
 
   .glass-card {
-    background: hsl(0 0% 100% / 0.7);
+    background: hsla(0, 100%, 96%, 0.7);
     backdrop-filter: blur(12px);
     border: 1px solid hsl(var(--magenta) / 0.2);
-    box-shadow: 0 2px 8px hsl(0 0% 0% / 0.05);
+    box-shadow: 0 2px 8px hsla(0, 100%, 92%, 0.05);
   }
 
   .glow-gold {
