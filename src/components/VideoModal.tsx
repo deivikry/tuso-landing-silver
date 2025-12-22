@@ -1,5 +1,5 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 interface VideoModalProps {
   open: boolean;
@@ -8,11 +8,18 @@ interface VideoModalProps {
 
 const VideoModal = ({ open, onOpenChange }: VideoModalProps) => {
   const videoId = "3KGiPb1XKsY";
+  const hasBeenOpened = useRef(false);
 
-  // Cuando se cierra el modal, hacer scroll a QuizSection
+  // Marcar que el modal ha sido abierto
   useEffect(() => {
-    if (!open) {
-      // Pequeño delay para que la animación del modal termine
+    if (open) {
+      hasBeenOpened.current = true;
+    }
+  }, [open]);
+
+  // Cuando se cierra el modal (solo si ya fue abierto antes), hacer scroll
+  useEffect(() => {
+    if (!open && hasBeenOpened.current) {
       setTimeout(() => {
         const quizSection = document.querySelector('[data-quiz-section]');
         if (quizSection) {
