@@ -13,7 +13,7 @@ const QuizSection = ({ onOpenVideo }: QuizSectionProps) => {
   };
 
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-20 px-4 relative" data-quiz-section>
       <div className="fog-overlay" />
       <div className="max-w-3xl mx-auto relative z-10">
         <FloatingCard delay={0.2} className="!p-0 overflow-hidden">
@@ -77,5 +77,6 @@ const QuizSection = ({ onOpenVideo }: QuizSectionProps) => {
     </section>
   );
 };
+
 
 export default QuizSection;
